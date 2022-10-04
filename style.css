@@ -1,0 +1,49 @@
+.blk-w-anim-video {
+    width: 100%;
+    position: relative;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    height: calc(3000px + 100vh);
+}
+
+.blk-w-anim-video .text-cont {
+    height: 100%;
+    width: calc((100% - 60px) / 4);
+}
+
+.blk-w-anim-video .text {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding-top: 200px;
+    width: 100%;
+    left: 0;
+}
+
+.blk-w-anim-video .text div {
+    margin-bottom: 50px;
+}
+
+.blk-w-anim-video .ooo {
+    width: 50%;
+    pointer-events: none;
+    height: 100%;
+    position: relative;
+}
+
+.blk-w-anim-video .ooo .cont {
+    width: 100%;
+    height: 100vh;
+    position: sticky;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blk-w-anim-video .ooo .cont img {
+    width: 100%;
+    object-fit: contain;
+}
